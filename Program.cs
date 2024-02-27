@@ -10,7 +10,8 @@ public class PersonalRegisterClass
 
         do
         {
-            Console.WriteLine("Press 1 to add new employee");
+            
+            Console.WriteLine("\nPress 1 to add new employee");
             Console.WriteLine("Press 2 to show all employees");
             Console.WriteLine("Press 3 to exit");
 
@@ -23,7 +24,7 @@ public class PersonalRegisterClass
                     break;
 
                 case 1:
-                    Console.WriteLine("Enter name:");
+                    Console.WriteLine("\nEnter name:");
                     string name = Console.ReadLine() ?? "";
 
                     Console.WriteLine("Enter salary:");
@@ -42,7 +43,5 @@ public class PersonalRegisterClass
                     break;
             }
         } while (go);
-
-
     }
 }

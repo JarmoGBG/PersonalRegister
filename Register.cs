@@ -23,7 +23,7 @@ namespace PersonalRegister
 
         public void PrintEmployees()
         {
-            Console.WriteLine("Employees:");
+            Console.WriteLine("\nEmployees:");
             Console.WriteLine("----------");
 
             foreach (var employee in employees)
